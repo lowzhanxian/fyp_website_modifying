@@ -1,0 +1,42 @@
+.loginTitle {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 600px;
+    background-color: white;
+    text-align: center;
+    height: 600px;
+    padding-top: 10px;
+   
+    
+    border-radius: 20px;
+    box-shadow: 1px 1px 0 1px #f9f9fb, -30px 0 40px 0 rgba(34, 33, 81, 0.01), 10px 28px 28px 0 grey;
+  }
+  
+  
+  
+  .Centre {
+    font-family: Helvetica;
+    font-size: 50px;
+    color: pink;
+  }
+  
+  body {
+    background: grey;
+    background: radial-gradient(circle, rgb(238, 174, 202) 34%, rgb(148, 187, 233) 93%, rgb(154, 186, 231) 97%);
+  }
+  
+  
+  .hideimg {
+    width: 40px;
+    margin-left: 150px;
+    
+    
+    cursor: pointer;
+  }
+ .form-control{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ 

@@ -1,0 +1,10 @@
+color  pallete
+
+- black 
+-31087B ( dark blue )
+-E966A0pink
+-8B8589 (taupe)
+
+
+background-color: #f0ecfc;
+background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);

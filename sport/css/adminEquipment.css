@@ -1,0 +1,111 @@
+.equipment_Box1{
+    width: 300px;
+    position: absolute;
+    left:450px;
+    margin-top: 80px;
+    
+}
+#h3_admin_equipment{
+    text-align: center;
+    font-size: 15px;
+}
+.equipment_Box2{
+    width: 300px;
+    position: absolute;
+    left: 930px;
+    margin-top: 80px;
+}
+.equipment_Box3{
+    background-color: skyblue;
+    opacity: 0.9;
+    width: 900px;
+    height: 140px;
+    position: absolute;
+    left: 480px;
+    margin-top: 260px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 20px;
+}
+.equipment_smallbox4{
+    background:#22668D ;
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+.equipment_smallbox4:hover{
+    background-color: white;
+    color: #31087B;
+    -webkit-box-shadow: 0px 6px 55px -23px rgba(30, 0, 30, 0.72);
+    -moz-box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    transform: scale(1.1);
+}
+#viewproduct{
+    width: 80px;
+    margin-left: 60px;
+}
+#h4_admin_equipment{
+    font-size: 20px;
+}
+.equipment_smallbox5{
+    background:#22668D ;
+    position: absolute;
+    left: 500px;
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+.equipment_smallbox5:hover{
+    background-color: white;
+    color: #31087B;
+    -webkit-box-shadow: 0px 6px 55px -23px rgba(30, 0, 30, 0.72);
+    -moz-box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    transform: scale(1.1);
+}
+.equipment_smallbox6{
+    background:#22668D ;
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 100px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+.equipment_smallbox6:hover{
+    background-color: white;
+    color: #31087B;
+    -webkit-box-shadow: 0px 6px 55px -23px rgba(30, 0, 30, 0.72);
+    -moz-box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    box-shadow: 0px 6px 55px -23px rgba(30, 0, 0, 30.72);
+    transform: scale(1.1);
+}
+.backDiv{
+    background-color: #31087B;
+    margin-left: 400px;
+    width: 100px;
+    text-align: center;
+    
+ 
+ }
+ .backDiv a{
+     color: white;padding: 20px;
+     
+ }

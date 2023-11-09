@@ -1,0 +1,51 @@
+body {
+    font-family: Helvetica;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #8B8589;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+.form input[type="text"], .form input[type="password"], .form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.social-icons img {
+    width: 20px;
+    margin: 0 5px;
+}
+#backButton{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+   
+    
+}
+.h{
+     margin-bottom: 10px;
+}

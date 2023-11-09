@@ -1,0 +1,95 @@
+body{
+    background-color: skyblue;
+}
+.h1{
+    background-color: white;
+    padding-bottom: 5px;
+    color: red;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    background-color: black;
+    margin-top: -20px;
+    
+}
+.coachpage{
+    background-color: white;
+    position: relative;
+    top: 200px;
+    left: 350px;
+    width: 860px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+   padding-bottom: 20px;
+   overflow: hidden;
+    
+}
+.confirmCoachSection{
+    background-color: transparent;
+   
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: -250px;
+    padding-top: 5px;
+  
+}
+
+
+#user_name{
+    width: 200px;
+    position: relative;
+    right: 270px;
+    padding: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+#user_name[readonly]{
+    background-color: transparent;
+}
+#user_email{
+    width: 200px;
+    position: relative;
+    top: -66px;
+    right: 10px;
+    padding: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+#label_user_email{
+   
+    position: relative;
+    top: -66px;
+    left: 260px;
+    padding: none;
+    border: none;
+    background: none;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+#coach_name{
+    position: relative;
+    right: 70px;
+}
+#coachcontact{
+    position: relative;
+    right: 70px;
+}
+#timeavailable{
+    position: relative;
+    right: 70px;
+}
+#trainprice,#skill,#category{
+    position: relative;
+    right: 70px;
+}
+#confirmCoachbutton{
+    position: relative;
+    left: 300px;
+}

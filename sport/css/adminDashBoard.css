@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.adminNav {
+    background-color:white ; 
+    box-shadow: 0px 100px 100px rgb(0 0 0 / 0.2);
+    width: 300px; 
+    height: 1000px; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    border: 5px solid whitesmoke;
+
+   
+}
+
+.adminNav ul {
+    list-style-type: none;
+    padding: 10px;
+    width: 300px;
+}
+
+.adminNav ul li {
+    text-align: center; 
+    padding:20px ;
+}
+
+.adminNav ul li a {
+    text-decoration: none;
+    height: 50px;
+    color: black; 
+    display: block; 
+    padding-top: 10px;
+}
+
+
+.adminNav ul li a:hover {
+    background-color: #31087B;
+    color: white; 
+}
+.liTitleimg{
+    perspective: 1000px; 
+    transition: transform 0.5s;
+}
+.liTitleimg:hover{
+    transform: rotateY(180deg) ; 
+}
+.titleimg{
+    width: 70px;
+    cursor: pointer;
+    transition: 1s;
+}
+.titleimg:hover{
+    width: 90px;
+    cursor: pointer;
+    
+}
+.realTime {
+    position: relative;
+    width: 800px;
+    background-color: #31087B;
+    top: 30px;
+    left: 500px;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#clock {
+    font-size: 50px;
+    color: white; 
+    display: inline-block; 
+}
+.TotalRevenue{
+    width: 300px;
+    position: absolute;
+    left:450px;
+    margin-top: 80px;
+    
+}
+.TotalUser{
+    width: 300px;
+    position: absolute;
+    left: 930px;
+    margin-top: 80px;
+}
+
+.box1{
+  width: 300px;
+  position: absolute;
+  left:450px;
+  margin-top: 600px;
+  
+}
+.box2{
+  width: 300px;
+  position: absolute;
+  left:920px;
+  margin-top: 600px;
+  
+}
+.program.program-schedule {
+    width: 450px;
+    padding: 10px;
+    background: #22668D;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+  }
+ 
+  .program.program-schedule img {
+    width: 100px !important;
+    margin-left: 170px;
+   
+    
+  }
+  #h3_adminDash {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    
+  }
+  h4{
+    text-align: center;
+    font-size: 30px;
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .totalreservation{
+    width: 300px;
+    position: absolute;
+    left: 460px;
+    margin-top: 350px;
+  }
+  .reservation{
+    width: 940px;
+    
+    padding: 10px;
+    background: #22668D;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  .reservation img {
+    width: 100px !important;
+    margin-left: 410px;
+   
+    
+  }

@@ -1,0 +1,62 @@
+.courtDetails{
+    width: 900px;
+    position: absolute;
+    left: 440px;
+    top: 200px;
+}
+.courtDetails{
+    background: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 900px;
+    left: 450px;
+    top: 220px;
+    padding: 10px;
+}
+.form-control{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.form-label{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.form-select{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.firstsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.secondsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+
+}
+.thirdsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+
+.col{
+    padding: 20px;
+}
+.btn.btn-primary{
+    width: 200px;
+}
+.btn.btn-danger{
+    width: 200px;
+}

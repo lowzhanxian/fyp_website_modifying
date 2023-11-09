@@ -1,0 +1,172 @@
+
+
+
+#carouselh2{
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    
+ }
+ #carouselH2{
+     color: whitesmoke;
+     font-size: 60px;
+ }
+ #h2_in_sportFacilties{
+     margin-top: 2%;
+ }
+
+
+#maintainanceTitle{
+    color: Red;
+    font-size: 50px;
+}
+
+
+
+.listingproduct-section{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content {
+    padding: 10px;
+}
+#message_Maintainance{
+    color:grey ;
+    font-size: 25px;
+    text-align: center;
+}
+#message{
+    border: 1px solid grey;
+    color:grey ;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+#postDate{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    position: absolute;
+    bottom: 10px; 
+    left: -550px; 
+}
+#moreDetailsButton{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opendiv {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    z-index: 1;/*ensure there have no transparent*/
+    text-align: center;
+    border: 1px solid red;
+    width: 70%;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: grey;
+}
+.close-button:hover {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+
+h5 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Apply styles to the facilities section */
+.facilities {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.facilities h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.facilities p {
+    font-size: 16px;
+    color: #777;
+}
+
+.Reserve-Button {
+    background-color: pink !important;
+    color: white;
+    font-size: 15px;
+    border: none !important;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Reserve-Button:hover {
+    background-color: red !important;
+    color: black;
+    font-size: 15px;
+    border: none !important;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-body{
+    background-color:white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#smallTi{
+    color: #31087B;
+}
+
+

@@ -1,0 +1,39 @@
+.table ,.table-bordered{
+    position: absolute;
+    top: 250px;
+    left: 380px;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #31087B;
+}
+.tr-equipment{
+    text-align: center;
+    background-color: #31087B;
+    color: white;
+   
+}
+.backDiv{
+    background-color: #31087B;
+    margin-left: 400px;
+    width: 100px;
+    text-align: center;
+    
+ 
+ }
+ .backDiv a{
+     color: white;padding: 20px;
+     
+ }
+#error_mssg{
+    color: red;
+    font-size: 15px;
+}
+#selectDated{
+    width: 200px;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+.btn.btn-primary{
+    margin-top: 20px;
+    margin-left: 850px;
+}

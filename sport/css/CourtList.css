@@ -1,0 +1,39 @@
+.listingproduct-section{
+    width: 1150px;
+    position: absolute;
+    top: 200px;
+    left: 360px;
+    
+   
+    
+}
+.card{
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+}
+h3{
+    color: grey;
+}
+h5{
+    color: black;
+}
+#emptymessage{
+    color: red;
+    margin-left: 400px;
+    font-size: 30px;
+}
+.backDiv{
+    background-color: #31087B;
+    margin-left: 350px;
+    width: 100px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    
+ 
+ }
+ .backDiv a{
+     color: white !important;padding: 20px !important;
+     
+ }

@@ -1,0 +1,37 @@
+#selectDated{
+    margin-top: 50px;
+    width:200px ;
+    margin-left: 400px;
+}
+#selectDated_FACILITIES{
+    width:200px ;
+    margin-left: 600px;
+}
+#theequipmentdata{
+    margin-top: 100px;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 550px;
+}
+.btn.btn-primary{
+    margin-left: 800px;
+}
+#btn-facilities{
+    margin-left:900px ;
+    margin-top: -60px;
+}
+#columnChart{
+    margin-top: 100px;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    left: 550px;
+}
+
+#therevenuemsg{
+    color: blue;
+    margin-left: 850px;
+    margin-top: 20px;
+    font-size: 30px;
+}

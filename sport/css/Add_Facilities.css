@@ -1,0 +1,103 @@
+#h3_back_href{
+    background: red;
+    color: white;
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    left: 350px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+#h3_back_href:hover{
+    background: darkred;
+    color: white;
+    position: absolute;
+    width: 100px;
+    padding: 10px;
+    left: 350px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.addFacilities{
+    background: white;
+    border: 1px solid black;
+    position: absolute;
+    width: 900px;
+    left: 450px;
+    top: 220px;
+    padding: 10px;
+}
+#h2_add_Facilities{
+    color: #31087B;
+    text-align: center;
+    
+}
+.form-control{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #31087B;
+   
+}
+
+.form-label{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+.form-select{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-color: #31087B;
+}
+.firstsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.secondsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+
+}
+.thirdsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.fourthsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.fifthsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.sixsection{
+    width: 900px;
+    padding-bottom: 10px;
+    left: -10px;
+    position: relative;
+    border-bottom:3px solid gray ;
+}
+.btn.btn-danger{
+    width: 850px;
+    position: relative;
+    left: 10px;
+}

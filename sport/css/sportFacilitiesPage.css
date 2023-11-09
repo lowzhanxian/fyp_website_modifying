@@ -1,0 +1,541 @@
+
+
+
+#carouselh2{
+   position: absolute;
+   left: 38%;
+   top: 45%;
+   
+}
+#carouselH2{
+    color: whitesmoke;
+    font-size: 60px;
+}
+#h2_in_sportFacilties{
+    margin-top: 2%;
+}
+#badmintonFac{
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   padding: 5%;
+}
+#basketballDiv{
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 5%;
+   margin-bottom: 5%;
+   padding: 5%;
+}
+#futsalFac{
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    
+}
+.basketball-court-img{
+    width: 300px;
+}
+.court-row {
+    display: flex;
+    align-items: center; /* Vertically center-align the items */
+    background-color: orangered;
+    transition: 1s;
+    border-radius: 10px;margin: 5%;
+
+}
+.court-row:hover{
+    transform: scale(0.8);
+    background-color: skyblue;
+    border-radius: 10px;
+
+}
+#court_One{
+    color: Black;
+    transition: 1s;
+    background-color: Red;
+    font-size: 60px;
+    border:1px solid white ;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+#court_One:hover{
+    color: White !important;
+    background-color: yellow;
+    font-size: 60px;
+    border:1px solid white ;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none !important;
+}
+
+.court-col {
+    flex: 1; 
+    text-align: center; /* Center-align the content within columns */
+   
+}
+
+.court-col:nth-child(2) {
+    text-align: left; 
+}
+
+#futsal-col{
+    background-color: orangered;
+    transition: 1s;
+    border-radius: 10px;margin: 5%;
+
+}
+#futsal-col:hover{
+    transform: scale(0.8);
+    background-color: skyblue;
+    border-radius: 10px;
+}
+#futsal_courtNum{
+   background-color: black;
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+   margin-top: 30px;
+   transition: 1s;
+    
+}
+#futsal_courtNum:hover{
+    background-color: #8B8589;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#a_futsal{
+    font-size: 60px;
+    color:white ;
+    margin: 10px;
+    
+}
+#a_futsal:hover{
+    color: white !important;
+    font-size: 60px;
+    text-decoration: none !important;
+    margin: 10px;
+}
+
+.sport-Select{
+    background-color: white;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    
+}
+.selectoption{
+    border: none;
+}
+#labelSport{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color:#8B8589 ;
+}
+#sportoption{
+    border-color: #31087B;
+    padding: 10px 8px;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #31087B;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    transition: 0.8s;
+}
+#sportoption:hover{
+    border-color: pink;
+    padding: 10px 8px;
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #31087B;
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    border-width: 2px;
+
+}
+
+
+ /*For badminton court design( court 1)*/
+ /* Add background color to the badminton court */
+#badmintonCourt{
+    width:300px ;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 30px 80px 80px 30px;
+    grid-template-columns: 50px 100px 40px 40px 100px 50px;
+    border: solid 1px #fff;
+    justify-content: center;
+    align-content: center;
+    background-color: green;
+    padding: 5%;
+    margin: 20px;
+}
+#badmintonCourt:hover{
+    background-color: red;
+    
+
+}
+
+/* Style for individual court lines  */
+#badmintonCourt > div {
+    border: solid #fff;
+    border-width: 1px 1px 0 1px;
+    
+
+}
+
+
+
+/* Right border for specific lines */
+#badmintonCourt> div:nth-child(6), #badmintonCourt> div:nth-child(12), #badmintonCourt> div:nth-child(16), #badmintonCourt> div:nth-child(22) {
+    border-right-width: 1px;
+}
+
+/* Bottom border for specific lines */
+#badmintonCourt > div:nth-last-child(-n+6) {
+    border-bottom-width: 1px;
+}
+/* Adjust grid placement for service boxes */
+#badmintonCourt> div:nth-child(9) {
+    grid-column: 3;
+}
+/* Service boxes */
+#badmintonCourt> div:nth-child(9), #badmintonCourt> div:nth-child(10) {
+    grid-row: 2/4;
+}
+
+
+
+#badmintonCourt> div:nth-child(10) {
+    grid-column: 4;
+}
+
+
+/*court 2*/
+#badmintonCourt2{
+    width:300px ;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 30px 80px 80px 30px;
+    grid-template-columns: 50px 100px 40px 40px 100px 50px;
+    border: solid 1px #fff;
+    justify-content: center;
+    align-content: center;
+    background-color: green;
+    padding: 5%;
+    margin: 20px;
+}
+#badmintonCourt2:hover{
+    background-color: red;
+    
+
+}
+/* Style for individual court lines ( court 2) */
+#badmintonCourt2 > div {
+    border: solid #fff;
+    border-width: 1px 0 0 1px;
+    
+    
+}
+
+
+
+/* Right border for specific lines */
+#badmintonCourt2> div:nth-child(6), #badmintonCourt2> div:nth-child(12), #badmintonCourt2> div:nth-child(16), #badmintonCourt2> div:nth-child(22) {
+    border-right-width: 1px;
+}
+
+/* Bottom border for specific lines */
+#badmintonCourt2 > div:nth-last-child(-n+6) {
+    border-bottom-width: 1px;
+}
+/* Adjust grid placement for service boxes */
+#badmintonCourt2> div:nth-child(9) {
+    grid-column: 3;
+}
+/* Service boxes */
+#badmintonCourt2> div:nth-child(9), #badmintonCourt2> div:nth-child(10) {
+    grid-row: 2/4;
+}
+
+
+
+#badmintonCourt2> div:nth-child(10) {
+    grid-column: 4;
+}
+/*court 3*/
+#badmintonCourt3{
+    width:300px ;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 30px 80px 80px 30px;
+    grid-template-columns: 50px 100px 40px 40px 100px 50px;
+    border: solid 1px #fff;
+    justify-content: center;
+    align-content: center;
+    background-color: green;
+    padding: 5%;
+    margin: 20px;
+}
+#badmintonCourt3:hover{
+    background-color: red;
+    
+
+}
+/* Style for individual court lines ( court 2) */
+#badmintonCourt3 > div {
+    border: solid #fff;
+    border-width: 1px 0 0 1px;
+    
+    cursor: pointer;
+}
+
+
+
+/* Right border for specific lines */
+#badmintonCourt3> div:nth-child(6), #badmintonCourt3> div:nth-child(12), #badmintonCourt3> div:nth-child(16), #badmintonCourt3> div:nth-child(22) {
+    border-right-width: 1px;
+}
+
+/* Bottom border for specific lines */
+#badmintonCourt3 > div:nth-last-child(-n+6) {
+    border-bottom-width: 1px;
+}
+/* Adjust grid placement for service boxes */
+#badmintonCourt3> div:nth-child(9) {
+    grid-column: 3;
+}
+/* Service boxes */
+#badmintonCourt3> div:nth-child(9), #badmintonCourt3> div:nth-child(10) {
+    grid-row: 2/4;
+}
+
+
+
+#badmintonCourt3> div:nth-child(10) {
+    grid-column: 4;
+}
+
+
+/*court 4*/
+#badmintonCourt4{
+    width:300px ;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 30px 80px 80px 30px;
+    grid-template-columns: 50px 100px 40px 40px 100px 50px;
+    border: solid 1px #fff;
+    justify-content: center;
+    align-content: center;
+    background-color: green;
+    padding: 5%;
+    margin: 20px;
+}
+#badmintonCourt4:hover{
+    background-color: red;
+    
+
+}
+/* Style for individual court lines ( court 2) */
+#badmintonCourt4 > div {
+    border: solid #fff;
+    border-width: 1px 0 0 1px;
+    
+    
+}
+
+
+
+/* Right border for specific lines */
+#badmintonCourt4> div:nth-child(6), #badmintonCourt4> div:nth-child(12), #badmintonCourt4> div:nth-child(16), #badmintonCourt4> div:nth-child(22) {
+    border-right-width: 1px;
+}
+
+/* Bottom border for specific lines */
+#badmintonCourt4 > div:nth-last-child(-n+6) {
+    border-bottom-width: 1px;
+}
+/* Adjust grid placement for service boxes */
+#badmintonCourt4> div:nth-child(9) {
+    grid-column: 3;
+}
+/* Service boxes */
+#badmintonCourt4> div:nth-child(9), #badmintonCourt3> div:nth-child(10) {
+    grid-row: 2/4;
+}
+
+
+
+#badmintonCourt4> div:nth-child(10) {
+    grid-column: 4;
+}
+
+
+
+.court-number{
+    font-size: 30px;
+    color: white;
+   transition: 0.8s;
+    background-color: black;
+}
+
+.court-number:hover{
+    font-size: 50px;
+    background-color: skyblue;
+    color: black !important;
+    transform: scale(1.1);
+}
+
+#h4_sportFacilities{
+    color: red;
+    font-size: 12px;
+}
+
+#h2_sportFacilities{
+    color: red;
+    font-size: 15px;
+}
+#forminput {
+    border: 1px solid red; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+.btn{
+    border-color: skyblue;
+    border-width: 2px;
+    
+  
+}
+#forminput2 {
+    border: 1px solid red; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+#forminput3 {
+    border: 1px solid red; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+.btn2{
+    border-color: skyblue;
+    border-width: 2px;
+    
+  
+}
+
+#futsal_court{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#timeSlot{
+   font-size: 20px; 
+}
+
+.time-table {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* Adjust columns as needed */
+    height: 300px;
+    
+  
+  }
+  
+  .time-slot {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-color: pink;
+    transition: 1s;
+  }
+  
+  .time-slot:hover {
+    transform: scale(0.9);
+    background-color: black; /* Change background color on hover */
+    color: white;
+  }
+  .disabled {
+    pointer-events: none;
+    background-color: grey;
+    color: grey;
+}
+#time{
+    margin-top: -40px;
+}
+.row{
+    padding: 10px;
+}
+
+
+#timeSlot{
+    font-size: 20px; 
+ }
+ 
+ .time-table2 {
+     display: grid;
+     grid-template-columns: repeat(2,1fr); /* Adjust columns as needed */
+     height: 300px;
+     
+   
+   }
+   
+   .time-slot2 {
+     padding: 10px;
+     border: 1px solid #ccc;
+     cursor: pointer;
+     border-color: pink;
+     transition: 1s;
+   }
+   
+   .time-slot2:hover {
+     transform: scale(0.9);
+     background-color: black; /* Change background color on hover */
+     color: white;
+   }
+   
+   
+   .time-slot3 {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-color: pink;
+    transition: 1s;
+  }
+  
+  .time-slot3:hover {
+    transform: scale(0.9);
+    background-color: black; /* Change background color on hover */
+    color: white;
+  }
+  

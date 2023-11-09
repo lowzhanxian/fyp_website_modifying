@@ -1,0 +1,78 @@
+
+.box1{
+    width: 300px;
+    position: absolute;
+    left:450px;
+    margin-top: 80px;
+    
+}
+.box2{
+    width: 300px;
+    position: absolute;
+    left: 930px;
+    margin-top: 80px;
+}
+.box3{
+    width: 300px;
+    position: absolute;
+    left:450px;
+    margin-top: 260px;
+}
+.box4{
+    width: 300px;
+    position: absolute;
+    left: 930px;
+    margin-top: 260px;
+}
+
+.addCoach{
+    position: absolute;
+    top: 600px;
+    left: 380px;
+    width: 1100px;
+   
+    padding: 20px;
+}
+.remove_Coach{
+    position: absolute;
+    top: 600px;
+    left: 380px;
+    width: 1100px;
+   
+    padding: 20px;
+}
+#add{
+    border: 1px solid #31087B;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    padding: 20px;
+}
+#remove{
+    border: 1px solid #31087B;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    padding: 20px;
+}
+.btn-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+}
+.heading1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+    color:#31087B ;}
+.form-label{
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 20px;
+    color: #31087B;
+}
+#totalcoachspan{
+    color:yellow;
+    font-size: 20px;
+}

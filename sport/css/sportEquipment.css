@@ -1,0 +1,63 @@
+.card {
+    border: 1px solid #ddd;
+    margin: 8px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.card:hover{
+   
+    border: 1px solid red;
+   
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-img-top {
+   max-height: 200px;
+    
+}
+
+.card .card-name {
+    font-size: 18px;
+    font-family: Helvetica;
+    padding-bottom: 5px;
+}
+
+.card-stock {
+    font-size: 15px;
+    padding-bottom:5px ;
+    color: grey;
+}
+.card-price{
+    font-size: 15px;
+    padding-bottom:5px ;
+    color: red;
+}
+
+
+.card .btn-primary {
+    background-color: skyblue;
+    border: none;
+    
+}
+
+.card .btn-primary:hover {
+    background-color: red;
+    border: none;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white !important;
+}
+.title-sport-equipment{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+.backDiv{
+    background-color: #31087B;
+    margin-left: 350px;
+    width: 100px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    
+ 
+ }
+
+.backDiv a{
+    color: white !important;padding: 20px !important;
+    
+}
+#selectDated{
+   margin-left: 800px;
+   width: 200px;
+   margin-top: 20px;
+}
+.table ,.table-bordered{
+   position: absolute;
+   top: 150px;
+   left: 380px;
+   width: 70%;
+   text-align: center;
+   border: 1px solid #31087B;
+}
+.tr-maintainance{
+   text-align: center;
+   background-color: #31087B;
+   color: white;
+  
+}
+#error_mssg{
+   color: red;
+   font-size: 15px;
+}
